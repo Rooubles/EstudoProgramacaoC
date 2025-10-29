@@ -152,6 +152,7 @@ int main() {
 
                     movimentos++;
                     if(checar_vitoria(&t3, dif)) {
+                        exibir(&t1, &t2, &t3, dif);
                         printf("Total de movimentos: %d\n", movimentos);
                         pausa();
                         jogando = 0;
